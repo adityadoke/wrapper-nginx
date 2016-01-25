@@ -1,0 +1,15 @@
+set['nginx']['version']      = '1.6.2'
+set['nginx']['package_name'] = 'nginx'
+set['nginx']['port']         = '80'
+set['nginx']['dir']          = '/etc/nginx'
+set['nginx']['script_dir']   = '/usr/sbin'
+set['nginx']['log_dir']      = '/var/log/nginx'
+set['nginx']['log_dir_perm'] = '0750'
+set['nginx']['binary']       = '/usr/sbin/nginx'
+set['nginx']['default_root'] = '/usr/share/nginx/html'
+set['nginx']['ulimit']       = '1024'
+
+set['nginx']['pid'] = '/var/run/nginx.pid'
+
+#set['nginx']['geoip']['country_dat_checksum'] = '457d467caa9f67e8fda0865bf9890801'
+#set['nginx']['geoip']['country_dat_url'] = 'http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.mmdb.gz'
